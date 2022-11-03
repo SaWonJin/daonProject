@@ -5,15 +5,24 @@
 <head>
 <meta charset="UTF-8">
 <script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script>
+<style type="text/css">
+body{margin: 0; padding: 0; height: 100%; }
+.header {width: 100%; height: 15%; background: yellow;}
+.nav {width: 15%; height: 70%; float: left; background: orange;}
+.section {width: 70%; height: 70%; float: left; background: olive;}
+.aside {width: 15%; height: 70%; float: left; background: orange;}
+.footer {width: 100%; height: 15%; clear:both; background: purple;}
+</style>
+
 <title>Insert title here</title>
 </head>
 <body>
-<header id= "header">
+<header class="header">
 	<div>
-		<div style="background-color : white ;float:left;">
+		<div>
 			<p>gqwe</p>
 		</div>
-		<div style="background-color : blue ; float:right;">
+		<div>
 			<p>asd</p>
 		</div>
 	</div>
