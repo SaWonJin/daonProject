@@ -4,26 +4,24 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script>
-<style type="text/css">
-body{margin: 0; padding: 0; height: 100%; }
-.header {width: 100%; height: 15%; background: yellow;}
-.nav {width: 15%; height: 70%; float: left; background: orange;}
-.section {width: 70%; height: 70%; float: left; background: olive;}
-.aside {width: 15%; height: 70%; float: left; background: orange;}
-.footer {width: 100%; height: 15%; clear:both; background: purple;}
-</style>
-
+<!-- <script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script> -->
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/header.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/body.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
 <title>Insert title here</title>
 </head>
 <body>
-<header class="header">
-	<div>
-		<div>
-			<p>gqwe</p>
-		</div>
-		<div>
-			<p>asd</p>
+	<div class="container_header">
+		<div class="header">
+			<h1><a href="#">이미지</a></h1>
+			<div id="nav_header">
+				<ul id="menus_header">
+					<li><a href="#">a</a></li>
+					<li><a href="#">b</a></li>
+					<li><a href="#">c</a></li>
+					<li><a href="#">d</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
-</header>
