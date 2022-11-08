@@ -3,7 +3,10 @@
 <div class="container_footer">
 	<div class="footer">
 		<h1><a href="#">이미지</a></h1>
-		<div id="nav_footer">
+		<div class="addr_footer">
+			<p>오시는길</p>
+		</div>
+		<div class="nav_footer">
 			<ul>
 				<li><a href="#">1</a></li>
 				<li><a href="#">2</a></li>

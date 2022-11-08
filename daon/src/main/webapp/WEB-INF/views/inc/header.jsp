@@ -14,9 +14,12 @@
 <body>
 	<div class="container_header">
 		<div class="header">
-			<h1><a href="#">이미지</a></h1>
-			<div id="nav_header">
-				<ul id="menus_header">
+			<div class="img_area_header">
+			<a href="#"><img id="main_img" src="resources/img/imgmain.jpg" alt="메인이미지"></a>
+			</div>
+			<h1><a href="#">다온재가노인복지센터</a></h1>
+			<div class="nav_header">
+				<ul>
 					<li><a href="#">a</a></li>
 					<li><a href="#">b</a></li>
 					<li><a href="#">c</a></li>
