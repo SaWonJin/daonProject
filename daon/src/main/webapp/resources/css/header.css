@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .container_header{
 	width: 100%;
 	height: 2%;
@@ -16,27 +17,31 @@
 }
 
 .container_header .header h1 a {
+	float : left;
 	text-decoration: none;
 	color: black;
 	font-family: abster;
 }
 
 .container_header #main_img {
+	float : left;
 	margin : 10px 10px 10px 10px;
 	width: 100px;
 	height: 90px;
 }
 
-.container_header .nav_header ul {
+.container_header ul {
 	display: flex;
 	margin: 0 10px;
 }
 
-.container_header .nav_header ul li {
+.container_header ul li {
+	font-size : 5px;
 	margin-left: 10px;
 }
 
-.container_header .nav_header ul li a {
+.container_header ul li a {
 	text-decoration: none;
 	color: black;
 }
+

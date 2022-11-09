@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<!-- <script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script> -->
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/header.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/body.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css">
@@ -20,10 +19,16 @@
 			<h1><a href="#">다온재가노인복지센터</a></h1>
 			<div class="nav_header">
 				<ul>
-					<li><a href="#">a</a></li>
-					<li><a href="#">b</a></li>
-					<li><a href="#">c</a></li>
-					<li><a href="#">d</a></li>
+					<li><a href="#">센터 소개</a></li>
+					<li><a href="#">이용 안내</a></li>
+					<li><a href="#">게시판</a></li>
+					<li><a href="#">오시는 길</a></li>
+				</ul>
+			</div>
+			<div class="login">
+				<ul>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
 				</ul>
 			</div>
 		</div>

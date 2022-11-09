@@ -3,3 +3,42 @@
 	width: 100%;
 	height: 90vh;
 }
+
+.container_body .box_body{
+	width : 88%;
+	height : 80%;
+	border: solid black;
+	margin: 8% 5% 8% 5%;
+	
+}
+
+.container_body .nav_body{
+	float : left;
+	background-color : white;
+	width : 20%;
+	height: 100%;
+	box-sizing: border-box;
+	
+}
+
+.container_body .nav_body ul {
+	text-align: center;
+}
+
+.container_body .nav_body ul li {
+	margin: 10% 10% 10% 10%;
+}
+
+.container_body .section{
+	float : left;
+	width: 80%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.container_body .nav_body ul li .nav_menus{
+	border: solid red;
+	width : 20%;
+	height: 100%;
+	box-sizing: border-box;
+}
