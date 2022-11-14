@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
-.container_header{
+.container_header {
+	padding-top : 50px;
 	width: 100%;
-	height: 2%;
-	background-color: yellow;
+	height: 130px;
+	clear: both;
 }
 
 .container_header .header {
@@ -11,37 +12,49 @@
 	height: 80px;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-between;/* header 클래스 밑에 div nev가 좌우로 붙음  */
-	align-items:  center;
+	justify-content: space-between; /* header 클래스 밑에 div nev가 좌우로 붙음  */
+	align-items: center;
 	margin-top: 25px;
 }
 
 .container_header .header h1 a {
-	float : left;
+	color: #707070;
+	font-size: 12px;
 	text-decoration: none;
-	color: black;
-	font-family: abster;
 }
 
 .container_header #main_img {
-	float : left;
-	margin : 10px 10px 10px 10px;
+	float: left;
+	margin: 10px 10px 10px 10px;
 	width: 100px;
 	height: 90px;
 }
 
+.container_header .nav_header {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.container_header .login {
+	float: right;
+	width: 200px;
+	margin: 0 auto;
+}
+
 .container_header ul {
-	display: flex;
-	margin: 0 10px;
+	float: right;
+	min-width: 585px;
+	list-style: none;
+	height: 35px;
+	line-height: 35px;
 }
 
 .container_header ul li {
-	font-size : 5px;
-	margin-left: 10px;
+	margin : 20px;
+	float: right;
 }
 
 .container_header ul li a {
 	text-decoration: none;
 	color: black;
 }
-

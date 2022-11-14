@@ -15,8 +15,8 @@
 		<div class="header">
 			<div class="img_area_header">
 			<a href="#"><img id="main_img" src="resources/img/imgmain.jpg" alt="메인이미지"></a>
-			</div>
 			<h1><a href="#">다온재가노인복지센터</a></h1>
+			</div>
 			<div class="nav_header">
 				<ul>
 					<li><a href="#">센터 소개</a></li>
