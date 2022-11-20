@@ -1,0 +1,75 @@
+body { min-width: 1280px; max-width: 2000px;}
+
+/* 헤더영역 */
+header {position: relative; text-align: center; height: 80px; padding: 10px 0 20px 0;}
+header h1 { position: absolute; left: 50px; top: 0; padding: 14px 0 0;}
+header h1 a {display: block; width: 150px; height: 80px; color: transparent; background-image: url(../img/logo.png);}
+
+header .navi li { display: inline-block;} 
+header .navi li a {display: block; height: 80px; padding: 0 35px; font-size: 17px; color: #333; line-height: 80px; }
+header .navi li a:hover{color: #2b5b79; font-weight: bold;}
+header .navi li a span { position: relative;}
+header .navi li a:hover span:after {position: absolute; left: 0; bottom: -9px; content: ""; display: block;
+width: 100%; height: 1px; background-color: #2b5b79;}
+
+header .login{position: absolute; right: 5%; top: 0;} 
+header .login li {position: relative; float:left;}
+header .login li a { display: block; height: 80px; padding: 0 10px; line-height: 80px; padding-right: 0;}
+
+
+/* 푸터영역 */
+footer .top {background-color: #333;}
+footer .top > div { width: 1180px; margin: 0 auto; padding: 13px 0;}
+footer .top > div ul {float: left;}
+footer .top > div ul li {position: relative; float: left; padding: 0 19px 0 19px ;}
+footer .top > div ul li a {color: #fff; font-size: 13px; line-height: 45px;}
+
+footer .top > div div {float: right;}
+footer .top > div div p {display: inline-block; width: 242px; height: 45px; background-color: #2a3033; 
+    color: #fff; text-align: center; line-height: 45px; font-size: 13px;}
+footer .top > div div p strong { font-size: 20px; padding: 0 0 0 15px;}
+footer .top > div div select {width: 200px; height: 45px; padding:  0 0 0 21px; color: #191919; 
+    font-size: 12px; box-sizing: border-box; border: none; vertical-align: 3px;}
+
+footer .btm {padding: 10px 0 40px;; color: #000; text-align: center;}
+footer .btm p {display: inline-block; width: 200px; height: 80px; background: url(../img/name1.png); color: transparent;}
+footer .btm ul {padding: 14px 0 14px ;}
+footer .btm li { display: inline-block; padding: 0 10px; color: #000; font-size: 14px;}
+footer .btm li:after{content: ""; position: absolute; right: 0; top: 50%; margin-top: -4px; width: 1px; height: 8px; background: #000;}
+footer .btm address { font-size: 14px; color: #000;}
+
+/* 비주얼영역 */
+.visual {position: relative; padding: 0 50px;}
+.visual .prev,
+.visual .next { display: block; position: absolute; top: 50%; transform: translateY(-50%); width: 30px; height: 30px;
+background: url(../img/circle.png) no-repeat; color: transparent;}
+.visual .prev {left: 80px;}
+.visual .next {right: 80px;}
+
+.visual .control { position: absolute; left: 0; bottom: 55px; width: 100%; text-align: center;}
+.visual .control > div { display: inline-block; position: relative; padding: 0 45px 0 0 ;}
+.visual .control > div > div { position: absolute; right: 0;}
+.visual .control > div > div a { display: inline-block; width: 8px; height: 8px; overflow: hidden; margin: 0 0 0 7px; opacity: 0.5;}
+.visual .control > div > div a .on { opacity: 1;}
+.visual .control > div > div a .play { background: url(../img/play.png) no-repeat center;} 
+.visual .control > div > div a .pause { background: url(../img/pause.png) no-repeat center;}
+
+.visual .control ul { display: inline-block; font-size: 0; position: relative; top: 6px;}
+.visual .control li { display: inline-block; padding: 0 3px; }
+.visual .control li .on a { background-color: #fff;}
+.visual .control li a { display: block; width: 50px; height: 3px; background: rgba(255, 255, 255 , 0.5); border: none;}
+
+.visual .control a { color:  transparent;}
+
+.visual .con > div {height: 640px;}
+.visual .con .slide1 {background: url(../img/family.jpg) no-repeat center; color: #fff; font-size: 30px; }
+.visual .con .slide1 p { font-size: 20px; padding: 19px 0 0 ; line-height: 100%;}
+.visual .con .slide1 .txt {position: absolute; right: 62%; top: 150px}
+
+/* 메인영역 */
+main { width: 100%; height: 1000px; border: solid black 1px; }
+main .content_box { margin:  0 0 50px 0; }
+main .content_box > div {border: solid red 10px; 
+float: left; width: 30%; height: 450px;}
+main .notice_box > div {border: solid blue 10px; 
+width:40%; float: right; height: 450px;}

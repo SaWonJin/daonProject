@@ -4,32 +4,32 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/header.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/body.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/default.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/index.css">
+
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="container_header">
-		<div class="header">
-			<div class="img_area_header">
-			<a href="#"><img id="main_img" src="resources/img/imgmain.jpg" alt="메인이미지"></a>
-			<h1><a href="#">다온재가노인복지센터</a></h1>
-			</div>
-			<div class="nav_header">
-				<ul>
-					<li><a href="#">센터 소개</a></li>
-					<li><a href="#">이용 안내</a></li>
-					<li><a href="#">게시판</a></li>
-					<li><a href="#">오시는 길</a></li>
-				</ul>
-			</div>
-			<div class="login">
-				<ul>
-					<li><a href="#">로그인</a></li>
-					<li><a href="#">회원가입</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+	<header>
+        <h1><a href="#">다온재가노인복지센터</a></h1>
+        <h2 class="hide">대메뉴</h2>
+        <nav class="navi">
+            <ul>
+                <li><a href="#"><span>기관 소개</span></a></li>
+                <li><a href="#"><span>오시는 길</span></a></li>
+                <li><a href="#"><span>자료실/게시판</span></a></li>
+                <li><a href="#"><span>문의사항</span></a></li>
+            </ul>
+        </nav>
+        <h2 class="hide">로그인</h2>
+        <nav class="login">
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+            <!-- <ul>
+                <li><a href="#">로그아웃</a></li>
+                <li><a href="#">마이페이지</a></li>
+            </ul> -->
+        </nav>
+    </header>
