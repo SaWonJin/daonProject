@@ -1,0 +1,4 @@
+/* main css default*/
+main{width: 100%; height: 80%;}
+main .main_class { padding: 80px 100px 100px 100px; }
+main .main_class > div { height: 80%;}

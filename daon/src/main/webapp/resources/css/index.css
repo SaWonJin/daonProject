@@ -1,6 +1,6 @@
 body { min-width: 1280px; max-width: 2000px;}
 
-/* 헤더영역 */
+/* header css */
 header {position: relative; text-align: center; height: 80px; padding: 10px 0 20px 0;}
 header h1 { position: absolute; left: 50px; top: 0; padding: 14px 0 0;}
 header h1 a {display: block; width: 150px; height: 80px; color: transparent; background-image: url(../img/logo.png);}
@@ -17,7 +17,7 @@ header .login li {position: relative; float:left;}
 header .login li a { display: block; height: 80px; padding: 0 10px; line-height: 80px; padding-right: 0;}
 
 
-/* 푸터영역 */
+/* footer css */
 footer .top {background-color: #333;}
 footer .top > div { width: 1180px; margin: 0 auto; padding: 13px 0;}
 footer .top > div ul {float: left;}
@@ -38,7 +38,7 @@ footer .btm li { display: inline-block; padding: 0 10px; color: #000; font-size:
 footer .btm li:after{content: ""; position: absolute; right: 0; top: 50%; margin-top: -4px; width: 1px; height: 8px; background: #000;}
 footer .btm address { font-size: 14px; color: #000;}
 
-/* 비주얼영역 */
+/* visual css */
 .visual {position: relative; padding: 0 50px;}
 .visual .prev,
 .visual .next { display: block; position: absolute; top: 50%; transform: translateY(-50%); width: 30px; height: 30px;
@@ -66,10 +66,43 @@ background: url(../img/circle.png) no-repeat; color: transparent;}
 .visual .con .slide1 p { font-size: 20px; padding: 19px 0 0 ; line-height: 100%;}
 .visual .con .slide1 .txt {position: absolute; right: 62%; top: 150px}
 
-/* 메인영역 */
-main { width: 100%; height: 1000px; border: solid black 1px; }
-main .content_box { margin:  0 0 50px 0; }
-main .content_box > div {border: solid red 10px; 
-float: left; width: 30%; height: 450px;}
-main .notice_box > div {border: solid blue 10px; 
-width:40%; float: right; height: 450px;}
+/* notice_text link css */
+
+.notice > div {width: 1180px; margin: 0 auto; padding: 55px 0;}
+.notice > div .top {padding-left: 55px;}
+.notice > div .top ul {float: left; }
+.notice > div .top ul a {display: block; padding: 100px 0 0 ; width: 250px; height: 250px; 
+    text-align: center; box-sizing: border-box; font-size: 17px; color: black;}
+.notice > div .top ul li{float: left; padding: 0 20px 0 0;}
+.notice > div .top ul li:nth-child(1) a {background-color: antiquewhite;}
+.notice > div .top ul li:nth-child(2) a {background-color: antiquewhite;}
+.notice > div .top ul li:nth-child(3) a {background-color: antiquewhite;}
+.notice > div .top ul li:nth-child(4) a {background-color: antiquewhite;}
+
+/* notice_text css */
+.notice article {padding: 20px 0 0;}
+.notice article > div {position: relative; float: left; height: auto; width: 520px; background-color: antiquewhite; margin-right: 10px;} 
+.notice article > div.left {margin-left: 50px;}
+.notice article > div.left ul li {float: left; padding: 35px; width: 50%; box-sizing: border-box; border-left: 1px solid #fff;}
+.notice article > div.left ul li:first-child{border-left: none;}
+.notice article > div.left ul li span {display: block; width: 100%; overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap; line-height: 100%;}
+.notice article > div.left ul li p {padding: 20px 0 20px; line-height: 100%;}
+.notice article > div.left ul li div{line-height: 21px;}
+
+.notice article > div.right { float: right; margin-right: 60px;}
+.notice article > div.right ul li {position: relative; border-bottom: solid #fff 1px;}
+.notice article > div.right ul li:last-child{border-bottom: none;}
+.notice article > div.right ul li a {display: block; height: 60px; line-height: 60px; text-indent: 30px;
+width: 400px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.notice article > div.right p {position: absolute; right: 30px; top :0;}
+
+.notice article > div a {font-size: 16px; color: #000;}
+.notice article > div a p {font-size: 12px; color: #979797;}
+.notice article > div > a { position: absolute; right: 23px; top: 23px; width: 30px; height: 30px; 
+    background-color: #fff; border-radius: 30px; color: transparent;}
+.notice article > div h2 {font-size: 24px; color: #191919; text-align: center; height: 77px; 
+    line-height: 77px; border-bottom: 1px solid #fff;}
+
+
+

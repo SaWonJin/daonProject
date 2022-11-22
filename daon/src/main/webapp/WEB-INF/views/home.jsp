@@ -40,27 +40,39 @@
             </div>
         </div>
     </section>
-    <main>
-        <div class="content_box">
-            <div class="banner_main">
-
+    <section class="notice">
+        <div class="clear">
+            <div class="top clear">
+                <div>
+                    <ul>
+                        <li><a href="#">사진 링크1</a></li>
+                        <li><a href="#">사진 링크1</a></li>
+                        <li><a href="#">사진 링크1</a></li>
+                        <li><a href="#">사진 링크1</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="banner_content">
-                
-            </div>
-            <div class="banner_map">
-                
-            </div>
-        </div>
-        <div class="notice_box">
-            <div class="banner_help">
-                
-            </div>
-            <div class="banner_notice">
-                
-            </div>
-        </div>
-    </main>
+            <article>
+                <div class="left">
+                    <h2>공지</h2>
+                    <ul>
+                        <li><a href="#"><span>공지 바로가기</span><p>123412212</p><div>공지내용</div></a></li>
+                        <li><a href="#"><span>공지 바로가기</span><p>123412212</p><div>공지내용</div></a></li>
+                    </ul>
+                    <a href="#">더보기</a>
+                </div>
+                <div class="right">
+                    <h2>게시판</h2>
+                    <ul>
+                        <li><a href="#">제목 바로가기<p>12341212</p></a></li>
+                        <li><a href="#">제목 바로가기<p>12341212</p></a></li>
+                        <li><a href="#">제목 바로가기<p>12341212</p></a></li>
+                    </ul>
+                    <a href="#">더보기</a>
+                </div>
+            </article>
+        </div>  
+    </section>
 <%@ include file="inc/footer.jsp"%>
 <script>
 	
