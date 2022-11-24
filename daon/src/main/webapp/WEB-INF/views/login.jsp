@@ -9,16 +9,20 @@
                     <fieldset>
                         <legend>로그인</legend>
                         <div class="login">
-                            <ul class="top">
-                                <li><label for="txt1">아이디</label><input type="text" id="txt1"></li>
-                                <li><label for="txt2">비밀번호</label><input type="password" id="txt2"></li>
-                                <li class="btn"><a href="#">로그인</a></li>
-                                <li class="save"><input type="checkbox" id="chk1"><label for="chk1">아이디 저장</label></li>
-                            </ul>
-                            <ul class="btm">
-                                <li>아이디를 잊으셨나요?<a href="#">아이디 찾기</a></li>
-                                <li>비밀번호를 잊으셨나요?<a href="#">비밀번호 찾기</a></li>
-                            </ul>
+                            <div class="login_position">
+                                <div>
+                                    <ul class="top">
+                                        <li><label for="txt1">아이디</label><input type="text" id="txt1"></li>
+                                        <li><label for="txt2">비밀번호</label><input type="password" id="txt2"></li>
+                                        <li class="btn"><a href="#">로그인</a></li>
+                                        <li class="save"><input type="checkbox" id="chk1"><label for="chk1">아이디 저장</label></li>
+                                    </ul>
+                                    <ul class="btm">
+                                        <li>아이디를 잊으셨나요?<a href="#">아이디 찾기</a></li>
+                                        <li>비밀번호를 잊으셨나요?<a href="#">비밀번호 찾기</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </fieldset>
                 </form>

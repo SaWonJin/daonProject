@@ -4,8 +4,8 @@
 <%@ include file="inc/header.jsp"%>
     <section class="visual">
         <h2 class="hide">광고영역</h2>
-        <a href="#" class="prev">이전</a>
-        <a href="#" class="next">다음</a>
+<!--         <a href="#" class="prev">이전</a>
+        <a href="#" class="next">다음</a> -->
         <div class="control">
             <div>
                 <!-- <div>
@@ -14,7 +14,7 @@
                 </div> -->
                 <!-- 밑에 언더바들 Ul임 -->
                 <ul>
-                    <li calss="on"><a href="#">사진 1</a></li>
+                    <li class="on"><a href="#">사진 1</a></li>
                     <li><a href="#">사진 2</a></li>
                     <li><a href="#">사진 3</a></li>
                     <li><a href="#">사진 4</a></li>
