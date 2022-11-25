@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+main .main_class .title{
+    padding: 0 0 0 50px ;
+}
+
+main .main_class .title h3 {
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: 600;
+    font-size: 23px;
+    color: black;
+}
+
+caption{ display: none;}
+
+main .main_class .board_list_wrap {
+    padding : 50px;
+}
+
+main .main_class .board_list { 
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+main .main_class .board_list tr {
+    border-bottom: 1px solid black;
+}
+
+main .main_class .board_list th,
+main .main_class .board_list td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+main .main_class .board_list td { text-align: center;}
+
+main .main_class .board_list .tit:nth-child(2){
+    text-align: left;
+}
+
+
+main .main_class .board_list .tit:hover{
+    text-decoration: underline;
+}
+
+main .main_class .board_list_wrap .paging {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0;
+}
+main .main_class .board_list_wrap .paging a {
+    display: inline-block;
+    font-size:  12px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+main .main_class .board_list_wrap .paging a:first-child{
+    margin-left: 0;
+}
+
+main .main_class .board_list_wrap .paging a.bt{
+    background-color: antiquewhite;
+}
+
+main .main_class .board_list_wrap .paging a.num{
+    font-weight: 600;
+    border: 1px solid antiquewhite;
+}
+
+main .main_class .board_list_wrap .paging a.num.on {
+    background : antiquewhite;
+}

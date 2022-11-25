@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="/daon/resources/css/default.css">
 <link rel="stylesheet" href="/daon/resources/css/index.css">
 <link rel="stylesheet" href="/daon/resources/css/main.css">
+<link rel="stylesheet" href="/daon/resources/css/common.css">
+<link rel="stylesheet" href="/daon/resources/css/member.css">
+<link rel="stylesheet" href="/daon/resources/css/layout.css">
 <title>Insert title here</title>
 </head>
 <body>

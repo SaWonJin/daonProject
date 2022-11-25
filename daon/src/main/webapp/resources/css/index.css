@@ -1,3 +1,4 @@
+@charset "utf-8";
 body { min-width: 1280px; max-width: 2000px;}
 
 /* header css */
@@ -42,7 +43,7 @@ footer .btm address { font-size: 14px; color: #000;}
 .visual {position: relative; padding: 0 50px;}
 .visual .prev,
 .visual .next { display: block; position: absolute; top: 50%; transform: translateY(-50%); width: 30px; height: 30px;
-background: url(../img/circle.png) no-repeat; color: transparent;}
+background: url(circle.png) no-repeat; color: transparent;}
 .visual .prev {left: 80px;}
 .visual .next {right: 80px;}
 
@@ -56,7 +57,7 @@ background: url(../img/circle.png) no-repeat; color: transparent;}
 
 .visual .control ul { display: inline-block; font-size: 0; position: relative; top: 6px;}
 .visual .control li { display: inline-block; padding: 0 3px; }
-.visual .control li.on a { background-color: #fff;}
+.visual .control li .on a { background-color: #fff;}
 .visual .control li a { display: block; width: 50px; height: 3px; background: rgba(255, 255, 255 , 0.5); border: none;}
 
 .visual .control a { color:  transparent;}
@@ -68,11 +69,11 @@ background: url(../img/circle.png) no-repeat; color: transparent;}
 
 /* notice_text link css */
 
-.notice > div {width: 1180px; margin: 0 auto; padding: 55px 0; }
-.notice > div .top {padding-left: 55px; }
+.notice > div {width: 1180px; margin: 0 auto; padding: 55px 0;}
+.notice > div .top {padding-left: 55px;}
 .notice > div .top ul {float: left; }
 .notice > div .top ul a {display: block; padding: 100px 0 0 ; width: 250px; height: 250px; 
-    text-align: center; box-sizing: border-box; font-size: 17px; color: black; border-radius: 20px;}
+    text-align: center; box-sizing: border-box; font-size: 17px; color: black;}
 .notice > div .top ul li{float: left; padding: 0 20px 0 0;}
 .notice > div .top ul li:nth-child(1) a {background-color: antiquewhite;}
 .notice > div .top ul li:nth-child(2) a {background-color: antiquewhite;}
@@ -81,8 +82,8 @@ background: url(../img/circle.png) no-repeat; color: transparent;}
 
 /* notice_text css */
 .notice article {padding: 20px 0 0;}
-.notice article > div {position: relative; float: left; height: auto; width: 520px; background-color: antiquewhite; margin-right: 10px; border-radius: 20px;} 
-.notice article > div.left {margin-left: 55px;}
+.notice article > div {position: relative; float: left; height: auto; width: 520px; background-color: antiquewhite; margin-right: 10px;} 
+.notice article > div.left {margin-left: 50px;}
 .notice article > div.left ul li {float: left; padding: 35px; width: 50%; box-sizing: border-box; border-left: 1px solid #fff;}
 .notice article > div.left ul li:first-child{border-left: none;}
 .notice article > div.left ul li span {display: block; width: 100%; overflow: hidden; text-overflow: ellipsis;
@@ -90,7 +91,7 @@ background: url(../img/circle.png) no-repeat; color: transparent;}
 .notice article > div.left ul li p {padding: 20px 0 20px; line-height: 100%;}
 .notice article > div.left ul li div{line-height: 21px;}
 
-.notice article > div.right { float: right; margin-right: 65px;}
+.notice article > div.right { float: right; margin-right: 60px;}
 .notice article > div.right ul li {position: relative; border-bottom: solid #fff 1px;}
 .notice article > div.right ul li:last-child{border-bottom: none;}
 .notice article > div.right ul li a {display: block; height: 60px; line-height: 60px; text-indent: 30px;
@@ -105,106 +106,14 @@ width: 400px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
     line-height: 77px; border-bottom: 1px solid #fff;}
 
 
-/* login page */
 
-main .main_class .login .login_position {
-    padding-left: 38%;
+/* find Id */
+main .main_class .content_box .member_cont .login input[type=submit]{
+    border: 1px solid antiquewhite; background: antiquewhite; float: right; width: 158px; height: 91px; 
+    margin: 15px 0 0 0; color: #191919; font-size: 15px; font-weight: bold;
 }
-main .main_class .login .login_position > div {
-    padding: 15px 15px 15px 15px;
-    border: 2px solid antiquewhite;
-    width: 350px;
-    border-radius: 20px;
-}
+.member_tit h2 { font-size: 28px; color: #191919;}
 
-main .main_class .login .top {position: relative; width: 350px; }
-main .main_class .login .top li { padding : 0 0 9px;}
-main .main_class .login .top li label{display: inline-block; font-size: 11px; color: black; width: 63px;}
-main .main_class .login .top li input[type="text"],
-main .main_class .login .top li input[type="password"] {width: 150px; height: 30px; padding: 0; border-color: #d9d9d9;}
-
-main .main_class .login .top li a {display: block; width: 120px; height: 70px; background-color: antiquewhite;
-    font-size: 17px; text-align: center; line-height: 70px; font-weight: bold;} 
-
-main .main_class .login .top li.btn { position: absolute; right: 0px; top: 0px;}
-
-main .main_class .login .top li.save { padding: 0 0 0 55px;}
-main .main_class .login .top li.save label{ font-weight: normal; width: auto;}
-
-/* find id password */
-main .main_class .login .btm {position: relative; padding: 30px 0 0 60px; width: 350px;}
-main .main_class .login .btm li {color: black; font-size: 12px; padding: 0 0 11px 0;}
-main .main_class .login .btm li a {font-size: 12px; margin: 0 0 0 10px; font-weight: bold; text-decoration: underline;}
-
-
-/* board */
-main .main_class .title{ padding: 0 0 0 50px ;}
-
-main .main_class .title h3 {
-    text-decoration: underline;
-    text-underline-position: under;
-    font-weight: 600;
-    font-size: 23px;
-    color: black;
-}
-caption{ display: none;}
-
-main .main_class .board_list_wrap {
-    padding : 50px;
-}
-
-main .main_class .board_list { 
-    border-top: 2px solid black;
-    width: 100%;
-}
-
-main .main_class .board_list tr {
-    border-bottom: 1px solid black;
-}
-
-main .main_class .board_list th,
-main .main_class .board_list td {
-    padding: 10px;
-    font-size: 14px;
-}
-
-main .main_class .board_list td { text-align: center;}
-
-main .main_class .board_list .tit:nth-child(2){
-    text-align: left;
-}
-
-
-main .main_class .board_list .tit:hover{
-    text-decoration: underline;
-}
-
-main .main_class .board_list_wrap .paging {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0;
-}
-main .main_class .board_list_wrap .paging a {
-    display: inline-block;
-    font-size:  12px;
-    margin-left: 10px;
-    padding: 5px 10px;
-    border-radius: 100px;
-}
-
-main .main_class .board_list_wrap .paging a:first-child{
-    margin-left: 0;
-}
-
-main .main_class .board_list_wrap .paging a.bt{
-    background-color: antiquewhite;
-}
-
-main .main_class .board_list_wrap .paging a.num{
-    font-weight: 600;
-    border: 1px solid antiquewhite;
-}
-
-main .main_class .board_list_wrap .paging a.num.on {
-    background : antiquewhite;
-}
+.btn_member_join{width:150px; height:45px; margin:0; color:#191919; font-size:14px; border:1px solid antiquewhite;
+     background:antiquewhite; cursor:pointer; font-weight:bold;}
+.btn_member_join:hover{border:1px solid #626262; color: #191919; background:antiquewhite;}
