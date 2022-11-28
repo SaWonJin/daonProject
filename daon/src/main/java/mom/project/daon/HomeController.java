@@ -35,7 +35,7 @@ public class HomeController {
 	public String board(Locale locale, Model model) {
 
 		
-		return "board";
+		return "board/board";
 	}
 	
 	@RequestMapping(value = "/intro", method = RequestMethod.GET)

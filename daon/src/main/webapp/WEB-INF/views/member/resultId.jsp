@@ -10,9 +10,7 @@
 					<div id="contents">
 						<!-- 본문 시작 -->
 						<!-- //location_wrap -->
-
 						<div class="sub_content">
-
 							<!-- //side_cont -->
 							<div class="content_box">
 								<div class="member_wrap">
@@ -33,13 +31,8 @@
 													<!-- //find_id_sec -->
 													<div class="btn_member_sec">
 														<ul>
-															<li><input type="button" value="비밀번호 찾기"
-																class="btn_member_join js_btn_find_password"
-																onclick="location.href='${contextPath}/member/pwfind'">
-															</li>
-															<li><button type="button" id="btnJoinMember"
-																	class="btn_member_join"
-																	onclick="location.href='/ezenwood/member/signin'">로그인하기</button></li>
+															<li><input type="button" value="비밀번호 찾기" 	class="btn_member_join js_btn_find_password" onclick="location.href='/daon/findPw'"></li>
+															<li><button type="button" id="btnJoinMember" class="btn_member_join" onclick="location.href='/daon/singIns'">로그인하기</button></li>
 														</ul>
 													</div>
 													<!-- //btn_member_sec -->

@@ -56,10 +56,10 @@
                 <div class="left">
                     <h2>공지</h2>
                     <ul>
-                        <li><a href="#"><span>공지 바로가기</span><p>123412212</p><div>공지내용</div></a></li>
+                        <li><a href=""><span>공지 바로가기</span><p>123412212</p><div>공지내용</div></a></li>
                         <li><a href="#"><span>공지 바로가기</span><p>123412212</p><div>공지내용</div></a></li>
                     </ul>
-                    <a href="#">더보기</a>
+                    <a href="/daon/board">더보기</a>
                 </div>
                 <div class="right">
                     <h2>게시판</h2>
@@ -68,7 +68,7 @@
                         <li><a href="#">제목 바로가기<p>12341212</p></a></li>
                         <li><a href="#">제목 바로가기<p>12341212</p></a></li>
                     </ul>
-                    <a href="#">더보기</a>
+                    <a href="/daon/board">더보기</a>
                 </div>
             </article>
         </div>  

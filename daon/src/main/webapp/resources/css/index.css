@@ -57,7 +57,7 @@ background: url(circle.png) no-repeat; color: transparent;}
 
 .visual .control ul { display: inline-block; font-size: 0; position: relative; top: 6px;}
 .visual .control li { display: inline-block; padding: 0 3px; }
-.visual .control li .on a { background-color: #fff;}
+.visual .control li.on a { background-color: #fff;}
 .visual .control li a { display: block; width: 50px; height: 3px; background: rgba(255, 255, 255 , 0.5); border: none;}
 
 .visual .control a { color:  transparent;}
@@ -75,15 +75,15 @@ background: url(circle.png) no-repeat; color: transparent;}
 .notice > div .top ul a {display: block; padding: 100px 0 0 ; width: 250px; height: 250px; 
     text-align: center; box-sizing: border-box; font-size: 17px; color: black;}
 .notice > div .top ul li{float: left; padding: 0 20px 0 0;}
-.notice > div .top ul li:nth-child(1) a {background-color: antiquewhite;}
-.notice > div .top ul li:nth-child(2) a {background-color: antiquewhite;}
-.notice > div .top ul li:nth-child(3) a {background-color: antiquewhite;}
-.notice > div .top ul li:nth-child(4) a {background-color: antiquewhite;}
+.notice > div .top ul li:nth-child(1) a {background-color: antiquewhite; border-radius: 10px;}
+.notice > div .top ul li:nth-child(2) a {background-color: antiquewhite; border-radius: 10px;}
+.notice > div .top ul li:nth-child(3) a {background-color: antiquewhite; border-radius: 10px;}
+.notice > div .top ul li:nth-child(4) a {background-color: antiquewhite; border-radius: 10px;}
 
 /* notice_text css */
 .notice article {padding: 20px 0 0;}
-.notice article > div {position: relative; float: left; height: auto; width: 520px; background-color: antiquewhite; margin-right: 10px;} 
-.notice article > div.left {margin-left: 50px;}
+.notice article > div {position: relative; float: left; height: auto; width: 520px; background-color: antiquewhite; margin-right: 10px; border-radius: 10px;} 
+.notice article > div.left {margin-left: 53px;}
 .notice article > div.left ul li {float: left; padding: 35px; width: 50%; box-sizing: border-box; border-left: 1px solid #fff;}
 .notice article > div.left ul li:first-child{border-left: none;}
 .notice article > div.left ul li span {display: block; width: 100%; overflow: hidden; text-overflow: ellipsis;
@@ -91,7 +91,7 @@ background: url(circle.png) no-repeat; color: transparent;}
 .notice article > div.left ul li p {padding: 20px 0 20px; line-height: 100%;}
 .notice article > div.left ul li div{line-height: 21px;}
 
-.notice article > div.right { float: right; margin-right: 60px;}
+.notice article > div.right { float: right; margin-right: 65px;}
 .notice article > div.right ul li {position: relative; border-bottom: solid #fff 1px;}
 .notice article > div.right ul li:last-child{border-bottom: none;}
 .notice article > div.right ul li a {display: block; height: 60px; line-height: 60px; text-indent: 30px;
@@ -108,6 +108,11 @@ width: 400px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 
 
 /* find Id */
+main .main_class .content_box .member_cont .login_findid input[type=submit]{
+border: 1px solid antiquewhite; background: antiquewhite; width: 150px; height: 85px; float: right; 
+color: #191919 ; font-size: 14px; text-align: center; font-weight: bold;
+}
+
 main .main_class .content_box .member_cont .login input[type=submit]{
     border: 1px solid antiquewhite; background: antiquewhite; float: right; width: 158px; height: 91px; 
     margin: 15px 0 0 0; color: #191919; font-size: 15px; font-weight: bold;
@@ -117,3 +122,20 @@ main .main_class .content_box .member_cont .login input[type=submit]{
 .btn_member_join{width:150px; height:45px; margin:0; color:#191919; font-size:14px; border:1px solid antiquewhite;
      background:antiquewhite; cursor:pointer; font-weight:bold;}
 .btn_member_join:hover{border:1px solid #626262; color: #191919; background:antiquewhite;}
+
+.btn_member_sec .btn_member_join {
+	width: 100px; margin: auto; display: block;
+	text-align: center;
+}
+
+#idCheck,
+#pwCheck {
+	font-size: 12px; line-height: 1.5; color: #333; margin: 0 0 0 5px; padding: 5px 10px 5px 10px; border: 1px solid #989898;
+}
+
+.member_cont .btn_center_box input[type=button]{
+	width: 150px; height: 45px; color: #3e3d3c; font-weight: bold; font-size: 13px; border: 1px solid #cccccc; background: #fff; cursor: pointer;text-align: center;
+}
+.member_cont .btn_center_box input[type=submit]{
+	color:#191919; width: 150px; height: 45px; margin: 0; font-size: 14px; border: 1px solid antiquewhite; background:antiquewhite; cursor: pointer; font-weight: bold;text-align: center;
+}

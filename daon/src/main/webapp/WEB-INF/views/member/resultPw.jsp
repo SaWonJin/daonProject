@@ -24,17 +24,14 @@
 												<div class="find_pw_sec">
 													<div class="find_complete_box">
 														<p>
-															고객님의 비밀번호는 <br> <strong>${MEMBER_PW}</strong> 입니다.
+															고객님의 비밀번호는 <br> <strong></strong> 입니다.
 														</p>
 													</div>
 												</div>
 												<!-- //find_id_sec -->
 												<div class="btn_member_sec">
 													<ul>
-														<li><button type="button" id="btnJoinMember"
-																style="width: 100px; margin: auto; display: block"
-																class="btn_member_join"
-																onclick="location.href='/ezenwood/member/signin'">로그인하기</button></li>
+														<li><button type="button" id="btnJoinMember" class="btn_member_join" onclick="location.href='/daon/singIn'">로그인하기</button></li>
 													</ul>
 												</div>
 												<!-- //btn_member_sec -->

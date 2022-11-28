@@ -61,7 +61,7 @@
 .find_complete_box .find_id_name{font-size:22px; color:#525c6a;}
 
 /* 아이디 찾기 */
-.find_id_box .find_id_sec h3{font-weight:normal; font-size:18px; color:#222222;}
+.find_id_box .find_id_sec h3{font-weight:normal; font-size:18px; color:#222222; margin-bottom: 10px}
 .find_id_sec .login_input{overflow:hidden; border-top:none 0;}
 .find_id_sec .login_input > div{float:left;}
 .find_id_sec .login_input input{display:block; width:292px; height:36px; margin:15px 0 10px 0; padding:0 0 0 8px; border:1px solid #d0d0d0; color:#979d9d;}
@@ -244,7 +244,8 @@
 .base_info_sec table th:first-child,
 .base_info_sec table td:first-child{border-left:none;}
 .base_info_sec table td{padding:15px 0 15px 15px; border-bottom:1px solid #dcdcdc;}
-.base_info_sec table input[type="text"]{width:380px;}
+.base_info_sec table input[type="text"],
+.base_info_sec table input[type="password"]{width:380px;}
 .base_info_sec table .form_element{display:block; margin-top:5px;}
 /*.base_info_sec table select{margin:0 0 0 5px; padding:5.5px 4px; vertical-align:top; border:1px solid #cccccc;}*/
 .base_info_sec table strong{font-weight:normal; color:#3f8fe6;}
