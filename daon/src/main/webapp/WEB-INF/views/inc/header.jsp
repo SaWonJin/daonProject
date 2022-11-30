@@ -23,7 +23,7 @@
                 <li><a href="/daon/"><span>기관 소개</span></a></li>
                 <li><a href="/daon/"><span>오시는 길</span></a></li>
                 <li><a href="/daon/board"><span>자료실/게시판</span></a></li>
-                <li><a href="/daon/board"><span>공지사항</span></a></li>
+                <li><a href="/daon/notice"><span>공지사항</span></a></li>
                 <li><a href="/daon/"><span>문의사항</span></a></li>
             </ul>
         </nav>

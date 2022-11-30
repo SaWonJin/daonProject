@@ -38,6 +38,13 @@ public class HomeController {
 		return "board/board";
 	}
 	
+	@RequestMapping(value = "/notice", method = RequestMethod.GET)
+	public String notice(Locale locale, Model model) {
+
+		
+		return "board/notice";
+	}
+	
 	@RequestMapping(value = "/intro", method = RequestMethod.GET)
 	public String intro(Locale locale, Model model) {
 

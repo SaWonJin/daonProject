@@ -105,6 +105,42 @@ width: 400px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .notice article > div h2 {font-size: 24px; color: #191919; text-align: center; height: 77px; 
     line-height: 77px; border-bottom: 1px solid #fff;}
 
+/* intro */
+main .main_class {
+    height: 80%;
+    position: relative;
+}
+
+main .main_class .intro_box{
+    position: absolute;
+    padding: 70px 200px 0px 200px ;
+    width: 500px;
+}
+
+main .main_class .intro_box .content_box_intro h3{
+    font-size: 28px;
+    color: #191919;
+}
+
+main .main_class .intro_box .intro {
+    padding-top: 20px;
+    border-top: 1px solid black;
+    width: 1150px;
+}
+
+main .main_class .intro_box .intro .intro_txt {
+    width: 630px;
+    height: 600px;
+    float: left;
+    background-color: aquamarine;
+}
+
+main .main_class .intro_box .intro .intro_pic {
+    width: 500px;
+    height: 600px;
+    float: right;
+    background-color: antiquewhite;
+}
 
 
 /* find Id */
